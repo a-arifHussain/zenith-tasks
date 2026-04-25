@@ -1,0 +1,125 @@
+.navBar{
+   height: 4rem;
+   width: 100%;
+   /* background-color: red;  */
+   /* border: 2px solid black; */
+   padding: 0 3em 0 3em;
+   display: flex;
+   justify-content: space-around;
+   color: #0a2454;
+
+
+}
+.titleBox{
+    font-size: 1.1em;
+    
+    /* font-weight:bold; */
+    /* border: 1px solid black; */
+    color: #143a81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolBox{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: .1s ease-in-out;
+
+
+}
+.toolBox div{
+   /* border: 1px solid black; */
+   /* margin:1em; */
+   padding: 1.2em ;
+   text-align: center;
+   font-size: .7rem;
+   font-weight: 500;
+   /* position: relative; */
+   
+}
+.toolBox i{
+   font-size:1rem;
+}
+.toolBox a{
+   text-decoration: none;
+   color: #0a2454;
+}
+.toolBox div:hover{
+   border-bottom: 3px solid #0a2454 ;
+   font-weight: 700;
+   cursor: pointer;
+  
+
+   /* border-radius: 0 0 2px 2px; */
+}
+
+.aboutBox{
+   /* border: 2px solid black; */
+   display: flex;
+   align-items: center;
+
+}
+.aboutBox p{
+   font-size: 13px;
+}
+.profileImg{
+   width: 30px;
+   height: 30px;
+   /* font-size: 1.5rem; */
+   border-radius: 50%;
+   border: 1px solid black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 6px;
+}
+.profileImg i{
+ 
+   font-size:30px;
+  
+}
+.profileImg img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+}
+
+.hamBarger{
+   align-self: center;
+   font-size: 1.6rem;
+   margin-right: 15px;
+   display:none;
+   cursor: pointer;
+}
+.toolCloser{
+   position: relative;
+   bottom:  35px;
+   visibility: hidden;
+
+}
+
+@media (max-width:650px){
+   .navBar{
+      padding:0 0.65rem;
+   }
+   .toolBox{
+      flex-direction: column;
+      position:fixed;
+     
+      background-color: rgba(161, 159, 159, 0.562);
+      backdrop-filter: blur(3px );
+      width: 100px;
+      height: 400px;
+      border-radius:0 0 10px ;
+      /* display: none; */
+   }
+   .toolCloser{
+      visibility: visible;
+   }
+
+   .hamBarger{
+      display: flex;
+   }
+}
