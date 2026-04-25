@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/zenith-tasks/static/css/main.49ec3c57.css",
-    "main.js": "/zenith-tasks/static/js/main.c5acb846.js",
+    "main.js": "/zenith-tasks/static/js/main.ced325d2.js",
     "index.html": "/zenith-tasks/index.html",
     "main.49ec3c57.css.map": "/zenith-tasks/static/css/main.49ec3c57.css.map",
-    "main.c5acb846.js.map": "/zenith-tasks/static/js/main.c5acb846.js.map"
+    "main.ced325d2.js.map": "/zenith-tasks/static/js/main.ced325d2.js.map"
   },
   "entrypoints": [
     "static/css/main.49ec3c57.css",
-    "static/js/main.c5acb846.js"
+    "static/js/main.ced325d2.js"
   ]
 }
