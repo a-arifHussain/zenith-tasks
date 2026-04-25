@@ -55,7 +55,7 @@ const TaskBody = () => {
           {taskArray && taskArray.length === 0 ? (
             <div>
               <img
-                src="/image/noTaskImg.png"
+                src="https://github.com/a-arifHussain/zenith-tasks/blob/main/public/image/noTaskImg.png?raw=true"
                 alt=""
                 style={{
                   width: "80%",
